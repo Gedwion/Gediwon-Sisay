@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<!-- HTML5 and XHTML are two different markup languages used for creating web pages. 
+    While they have some similarities, there are also some key differences between them. 
+    Here are a few differences between HTML5 and XHTML:
+
+Syntax: 
+HTML5 has a more relaxed syntax than XHTML. For example, HTML5 allows for tags to be left unclosed,
+ while XHTML requires that all tags be closed properly.
+
+Document type: 
+HTML5 has a simpler document type declaration than XHTML.
+ HTML5 uses the <!DOCTYPE html> declaration, while XHTML requires a longer declaration.
+
+Error handling: 
+XHTML is stricter than HTML5 when it comes to error handling. 
+If there is an error in the code, an XHTML document will not be rendered by the browser, while HTML5 will still attempt to render the page.
+
+Compatibility: 
+HTML5 is more compatible with modern web technologies, such as CSS3 and JavaScript.
+ XHTML is not as compatible with these technologies and may require more workarounds to make them work together.
+
+Accessibility:
+ XHTML is generally considered to be more accessible than HTML5. 
+ This is because XHTML has stricter rules for creating web pages, which can make them easier to read by assistive technologies like screen readers.
+
+Overall, HTML5 is more widely used today than XHTML, as it is easier to work with and more compatible with modern web technologies. 
+However, XHTML is still used in some contexts, such as in certain types of e-books or in applications that require strict adherence to standards.-->
+<header>
+    <nav>
+       
+        <ul>
+            <li><a href="#"target="./blank">Home</a></li>
+            <li><a href="#"target="./blank">About</a></li> 
+            <li><a href="#" target="./blank">Contact</a></li>
+            <li><a href="#"target="./blank">Resource</a></li>
+            <li><a href="#"target="./blank">News</a></li>
+            <li><a href="#"target="./blank">Books</a></li>
+            <li><a href="#"target="./blank">Contact us</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+    <p>This is <i>my frist html code</i></p>
+    <h1>This is heading h1</h1>
+    <h2>This is heading h2</h2>
+    <h3>This is heading h3</h3>
+    <h4>This is heading h4</h4>
+    <h5>This is heading h5</h5>
+    <h6>This is heading h6</h6>
+    <img src="https://th.bing.com/th/id/R.0b388f6643ec702d86708179c89ef1e0?rik=clDqyEKbQjiUlw&pid=ImgRaw&r=0" alt="The boy" height="250px" width="250 px">
+    <img src="https://th.bing.com/th/id/R.54e165217ebcd5f627d05ad73a781ea1?rik=PxRkktTdfxOyhA&riu=http%3a%2f%2fannawrites.com%2fblog%2fwp-content%2fuploads%2f2013%2f06%2fsimple.jpg&ehk=Px4xZQj36dNQqJRp7S%2bsCadjr6d%2bxPZBMbKhL3XY8Zk%3d&risl=&pid=ImgRaw&r=0" alt="simple" height="200px" width="200px">
+    
+    <pre>
+        This helpa to divided the line 
+        Without div tag
+        Nice way 
+        Easy to use
+        
+    </pre>
+    <p>we can break<br> using br tag</p>
+    <p>we can  <b>bold</b> using b tag</p>
+<div>
+    <ol>
+        <li>this is order list</li>
+        <li> We can use the HTML ordered list for recipes, algorithms, top ten lists, and so on</li>
+        <li> The list items will be marked with numbers by default</li>
+    </ol>
+</div>
+<div>
+    <ul>
+        <li>This is unorderd list</li>
+        <li>unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle, or …</li>
+        <li> The list items will be marked without numbers by default</li>
+    </ul>
+</div>
+<div>
+    <audio controls>
+        <source src="horse.ogg"
+             type="audio/ogg">
+        <source src="horse.mp3" 
+            type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+</div>
+<div>
+    <video src="https://youtu.be/OvMXEd2aJHA">Ethiopian airlines</video>
+
+    <input type="email" placeholder="Your email">
+  <input type="submit">
+  <div>
+  
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+</div>
+<div>
+    <form>
+        <fieldset>
+         <legend>sample submission</legend>
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname" placeholder="Gediwon"><br><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname" placeholder="Sisay"><br><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" placeholder="gedion.s111@gmail.com"><br><br>
+         <label for="birthday">Birthday:</label>
+         <input type="date" id="birthday" name="birthday"><br><br>
+         <input type="submit" value="Submit">
+        </fieldset>
+       </form>
+       
+</div>
+<p>The  tag is used to define text with strong importance. <strong>The content inside is typically displayed in bold.</strong></p>
+
+<table>
+    <tr>
+      <th>CS</th>
+      <th>no of student</th>
+    </tr>
+    <tr>
+      <td>male</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>Female</td>
+      <td>15</td>
+    </tr>
+  </table>
+  
+<div>
+    <video width="500" height="300" controls>
+        <source src="https://youtu.be/-JAaEXO_bKo" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+</div>
+<h4>social links</h4>
+            <div>
+                   <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                   <a href="#"><i class="fab fa-twitter"></i></a> 
+                   <a href="#"><i class="fab fa-youtube"></i></a> 
+                   <a href="#"><i class="fab fa-telegram"></i></a> 
+
+               
+                </div>
+                <picture>
+                    <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+                    <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+                    <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                  </picture>
+                  <address>
+                    Written by <a href="gedion.s111@gmail.com">Gediwon Sisay</a>.<br> 
+                    Visit us at:computer science department <br>
+                    
+                    Box 564, Arsi university<br>
+                    Ethiopia
+                    </address>
+
+</body>
+</html>
